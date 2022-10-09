@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Amazon Test Suite]">
+  <test thread-count="1" parallel="tests" name="HomepageTestUnit(failed)">
+    <classes>
+      <class name="com.ecom.webapp.AmazonHomePage">
+        <methods>
+          <include name="homePageTitleVerification"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.ecom.webapp.AmazonHomePage -->
+      <class name="com.ecom.webapp.AmazonNavigationDemo">
+        <methods>
+          <include name="testFashion"/>
+          <include name="beforeMethod"/>
+          <include name="descriptionPage"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.ecom.webapp.AmazonNavigationDemo -->
+    </classes>
+  </test> <!-- HomepageTestUnit(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->
