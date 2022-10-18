@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.phase5.springboot.SpringBootWebAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.966 s - in com.phase5.springboot.SpringBootWebAppApplicationTests
